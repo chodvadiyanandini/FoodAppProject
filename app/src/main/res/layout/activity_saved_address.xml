@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SavedAddressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/back" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Enter your location"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:elevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_7sdp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:backgroundTint="@color/white"
+            android:text="4709, Sahdowmar Drive kenner,LA,Califoria"
+            android:textColor="#636262" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnsave"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/orange"
+                android:text="Save Address"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnmap"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@color/orange"
+                android:text="Find Location"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_40sdp">-->
+
+    <!--            <SearchView-->
+    <!--                android:id="@+id/searchView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--                android:iconifiedByDefault="false"-->
+    <!--                android:queryBackground="@android:color/transparent"-->
+    <!--                android:queryHint="Search for food" />-->
+    <!--        </androidx.cardview.widget.CardView>-->
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="428dp"-->
+    <!--            android:src="@drawable/map" />-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="428dp"-->
+    <!--            android:src="@drawable/map" />-->
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/_250sdp"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            app:cardCornerRadius="@dimen/_10sdp"-->
+    <!--            android:layout_marginHorizontal="@dimen/_5sdp">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--                    android:layout_marginTop="@dimen/_10sdp"-->
+    <!--                    android:text="Location"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="@dimen/_20sdp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--                    android:layout_marginTop="@dimen/_15sdp"-->
+    <!--                    android:text="Enter your address"-->
+    <!--                    android:textSize="@dimen/_15sdp" />-->
+
+
+    <!--            </LinearLayout>-->
+    <!--        </androidx.cardview.widget.CardView>-->
+    <!--    </RelativeLayout>-->
+
+</LinearLayout>

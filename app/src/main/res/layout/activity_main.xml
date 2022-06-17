@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="@dimen/_210sdp"
+        android:layout_height="@dimen/_210sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:background="@drawable/circle_bg"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imgmain"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/sushifront" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgmain"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delicious Food"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="We help you to find best and"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="delicious food"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_7sdp"
+                android:background="@drawable/circle_bg" />
+
+            <TextView
+                android:layout_width="@dimen/_7sdp"
+                android:layout_height="@dimen/_7sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/gray_circle_bg" />
+
+            <TextView
+                android:layout_width="@dimen/_7sdp"
+                android:layout_height="@dimen/_7sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/gray_circle_bg" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_65sdp"
+            android:background="@drawable/circle_bg"
+            android:paddingHorizontal="@dimen/_70sdp"
+            android:text="GET STARTED"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

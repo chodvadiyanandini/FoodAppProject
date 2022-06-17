@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/category_round_option_bg.xml" value="0.1355" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/circle_bg.xml" value="0.1355" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/filter_bg.xml" value="0.1355" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/first_round_corner_bg_small.xml" value="0.1" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/gray_circle_bg.xml" value="0.1355" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/gray_stroke_line_bg.xml" value="0.155" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/home_page_pizza_bg.xml" value="0.155" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/locationmapgraystrockbg.xml" value="0.155" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/nextorangestrockbg.xml" value="0.155" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/pizza_round_bg.xml" value="0.152" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/drawable/searchview_gray_bg.xml" value="0.1355" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_account_information.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_burger_page.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_cheese_pizza.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_commitment.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_drink.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_farmhouse_pizza.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_home_screen.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_map_location.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_margherita_pizza.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_meant_pizza.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_my_cart.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_order_details_avtivity.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_paner_makhana.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_pappy_paneer.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_pasta.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_profile_editing.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_profile_page.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_saved_address.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_speed.xml" value="0.2359375" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_sushi_page.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/activity_variety.xml" value="0.25" />
+        <entry key="..\:/FoodAppProject/app/src/main/res/layout/test.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
